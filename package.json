@@ -1,8 +1,11 @@
 {
   "name": "4-18b-playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "- update the data in data.json with the data from data_original.json   - npm i   # to install the packages listed in package.json ### 1. Load and parse the JSON data ### 2. Change the name and age property using your new info ### 3. Stringify the changed object and update the data in the data.json file ### 4. Verify that code is working correctly by viewing data in the data.json file.",
   "main": "json.js",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/hristian-carabulea/data.json.git"
   },
-  "author": "",
+  "author": "Hristian Carabulea",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hristian-carabulea/data.json/issues"
   },
-  "homepage": "https://github.com/hristian-carabulea/data.json#readme",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+  "homepage": "https://github.com/hristian-carabulea/data.json#readme"
 }
