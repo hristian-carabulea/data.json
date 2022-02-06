@@ -1,4 +1,6 @@
-// Before running the code update the content of the data.json with the content from data_original.json.
+// Before running the code:
+//  - update the content of the data.json with the content from data_original.json.
+//  - npm i # to install the packages listed in package.json
 
 const { json } = require("express/lib/response");
 const fs = require("fs");
