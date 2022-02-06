@@ -1,0 +1,22 @@
+{
+  "name": "4-18b-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hristian-carabulea/data.json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hristian-carabulea/data.json/issues"
+  },
+  "homepage": "https://github.com/hristian-carabulea/data.json#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
